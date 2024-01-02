@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+.container{
+    /* border: 2px solid red; */
+    width:90%;
+    margin:1em auto;
+    
+}
+
+.container .text-container{
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    /* border: 2px solid orchid; */
+   
+}
+
+.container textarea{
+    font-size: 2rem;
+    width: 80%;
+    display: inline-block;
+    outline:none;
+    border:none;
+    border: 1px solid black;
+    border-bottom: 3px solid #979797;
+    border-radius: 4px;
+    resize: none;
+    background: #fcfcfc;
+    padding: 1em;
+}
+
+.container .btn-container{
+    width: 80%;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .btn-container .btn{
+    font-size: 2rem;
+    border: 2px solid blue;
+    margin: 1em;
+    width: 40%;
+    border-radius: 4px;
+    
+}
