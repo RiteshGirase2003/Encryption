@@ -26,6 +26,7 @@ function encode() {
     const input = document.getElementById('input');
     const button = document.getElementById('encrypt-button');
     let msg = input.value;
+    msg = msg.toLowerCase();
     const x=getRandomNumber();
     let result='en->'+x+"->";
 
