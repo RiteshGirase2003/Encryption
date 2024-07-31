@@ -23,7 +23,7 @@ function getRandomNumber() {
 
 
 function encode() {
-    const input = document.getElementById('input');
+    const input = document.getElementById('input').toLowerCase();
     const button = document.getElementById('encrypt-button');
     let msg = input.value;
     msg = msg.toLowerCase();
